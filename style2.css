@@ -55,16 +55,7 @@ html,body{
     overflow: hidden;
     z-index: 1;
 }
-/*.btn::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0; 
-    height: 100%;
-    background-color: #eeb67e;
-    transition: width 0.3s ease-in-out;
-    z-index: -1; 
-}*/
+
 .btn:hover::before{
     width: 9rem;
 }
@@ -835,3 +826,4 @@ li span {
         grid-template-columns: 1fr 2fr;
     }
 }
+
